@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set the font family for the entire body */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Apply a box shadow to elements with the class "heading" */
+.heading {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Set the width of elements with the id "admin-table" to 100% */
+#admin-table {
+  width: 100%;
+}
+
+/* Add margin and overflow settings to elements with the id "panel-container" */
+#panel-container {
+  margin-top: 15px;
+  overflow-x: auto;
+}
+
+/* Set padding and text alignment for elements with the class "admin-table-heading" */
+.admin-table-heading {
+  padding: 10px 25px;
+  text-align: left;
+}
+
+/* Apply background color to even rows of elements with the class "admin-table-row" */
+.admin-table-row:nth-child(even) {
+  background-color: #edf2f7;
+}
+
+/* Apply background color to hovered rows of elements with the class "admin-table-row" */
+.admin-table-row:hover {
+  background-color: #e2e8f0;
+}
+
+/* Add border to elements with the class "admin-table-row" */
+.admin-table-row {
+  border: 1px solid #cbd5e0;
+}
+
+/* Set padding for elements with the class "admin-table-column" */
+.admin-table-column {
+  padding: 10px 25px;
+}
+
+/* Set padding for elements with the class "checkbox-custom" */
+.checkbox-custom {
+  padding: 5px;
+}
